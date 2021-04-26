@@ -8,14 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		1827B0732622A79D00F64D48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B0722622A79D00F64D48 /* AppDelegate.swift */; };
-		1827B0752622A79D00F64D48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B0742622A79D00F64D48 /* SceneDelegate.swift */; };
-		1827B0772622A79D00F64D48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B0762622A79D00F64D48 /* ViewController.swift */; };
 		1827B07A2622A79D00F64D48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1827B0782622A79D00F64D48 /* Main.storyboard */; };
 		1827B07D2622A79D00F64D48 /* JarusAssigment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1827B07B2622A79D00F64D48 /* JarusAssigment.xcdatamodeld */; };
 		1827B07F2622A7A100F64D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1827B07E2622A7A100F64D48 /* Assets.xcassets */; };
 		1827B0822622A7A100F64D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1827B0802622A7A100F64D48 /* LaunchScreen.storyboard */; };
 		1827B08D2622A7A100F64D48 /* JarusAssigmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B08C2622A7A100F64D48 /* JarusAssigmentTests.swift */; };
 		1827B0982622A7A100F64D48 /* JarusAssigmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B0972622A7A100F64D48 /* JarusAssigmentUITests.swift */; };
+		1827B0B32622ACB700F64D48 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B0B22622ACB700F64D48 /* AppUtility.swift */; };
+		1827B0C12622B26100F64D48 /* EquipmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B0C02622B26100F64D48 /* EquipmentView.swift */; };
+		1827B0C72622B29D00F64D48 /* EquipmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B0C62622B29D00F64D48 /* EquipmentViewModel.swift */; };
+		1827B0D22622BB5600F64D48 /* EquipmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B0D12622BB5600F64D48 /* EquipmentModel.swift */; };
+		1827B0DB2622BBE400F64D48 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B0DA2622BBE400F64D48 /* DataFetcher.swift */; };
+		1827B1242622E3F800F64D48 /* assignment.json in Resources */ = {isa = PBXBuildFile; fileRef = 1827B1232622E3F800F64D48 /* assignment.json */; };
+		1827B12F26230D4E00F64D48 /* EquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B12E26230D4E00F64D48 /* EquipmentViewController.swift */; };
+		1827B1422623461E00F64D48 /* EquimpmentInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B1412623461E00F64D48 /* EquimpmentInfoCell.swift */; };
+		1827B148262368F500F64D48 /* EquipmentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B147262368F500F64D48 /* EquipmentHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +42,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1827B11C2622E37900F64D48 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1827B06F2622A79D00F64D48 /* JarusAssigment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JarusAssigment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1827B0722622A79D00F64D48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1827B0742622A79D00F64D48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1827B0762622A79D00F64D48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1827B0792622A79D00F64D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1827B07C2622A79D00F64D48 /* JarusAssigment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JarusAssigment.xcdatamodel; sourceTree = "<group>"; };
 		1827B07E2622A7A100F64D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +69,15 @@
 		1827B0932622A7A100F64D48 /* JarusAssigmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JarusAssigmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1827B0972622A7A100F64D48 /* JarusAssigmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JarusAssigmentUITests.swift; sourceTree = "<group>"; };
 		1827B0992622A7A100F64D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1827B0B22622ACB700F64D48 /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		1827B0C02622B26100F64D48 /* EquipmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentView.swift; sourceTree = "<group>"; };
+		1827B0C62622B29D00F64D48 /* EquipmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentViewModel.swift; sourceTree = "<group>"; };
+		1827B0D12622BB5600F64D48 /* EquipmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentModel.swift; sourceTree = "<group>"; };
+		1827B0DA2622BBE400F64D48 /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		1827B1232622E3F800F64D48 /* assignment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = assignment.json; sourceTree = "<group>"; };
+		1827B12E26230D4E00F64D48 /* EquipmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentViewController.swift; sourceTree = "<group>"; };
+		1827B1412623461E00F64D48 /* EquimpmentInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquimpmentInfoCell.swift; sourceTree = "<group>"; };
+		1827B147262368F500F64D48 /* EquipmentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +112,7 @@
 				1827B08B2622A7A100F64D48 /* JarusAssigmentTests */,
 				1827B0962622A7A100F64D48 /* JarusAssigmentUITests */,
 				1827B0702622A79D00F64D48 /* Products */,
+				1827B0F32622E06C00F64D48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +129,19 @@
 		1827B0712622A79D00F64D48 /* JarusAssigment */ = {
 			isa = PBXGroup;
 			children = (
+				1827B12D26230D2E00F64D48 /* Controller */,
+				1827B0D92622BBC500F64D48 /* DataFetcher */,
+				1827B0D02622BB4500F64D48 /* Model */,
+				1827B0C52622B28300F64D48 /* ViewModel */,
+				1827B0B72622AD1100F64D48 /* Views */,
+				1827B0B12622AC9D00F64D48 /* Utility */,
 				1827B0722622A79D00F64D48 /* AppDelegate.swift */,
-				1827B0742622A79D00F64D48 /* SceneDelegate.swift */,
-				1827B0762622A79D00F64D48 /* ViewController.swift */,
 				1827B0782622A79D00F64D48 /* Main.storyboard */,
 				1827B07E2622A7A100F64D48 /* Assets.xcassets */,
 				1827B0802622A7A100F64D48 /* LaunchScreen.storyboard */,
 				1827B0832622A7A100F64D48 /* Info.plist */,
 				1827B07B2622A79D00F64D48 /* JarusAssigment.xcdatamodeld */,
+				1827B1232622E3F800F64D48 /* assignment.json */,
 			);
 			path = JarusAssigment;
 			sourceTree = "<group>";
@@ -131,6 +164,63 @@
 			path = JarusAssigmentUITests;
 			sourceTree = "<group>";
 		};
+		1827B0B12622AC9D00F64D48 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1827B0B22622ACB700F64D48 /* AppUtility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		1827B0B72622AD1100F64D48 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1827B0C02622B26100F64D48 /* EquipmentView.swift */,
+				1827B1412623461E00F64D48 /* EquimpmentInfoCell.swift */,
+				1827B147262368F500F64D48 /* EquipmentHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1827B0C52622B28300F64D48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1827B0C62622B29D00F64D48 /* EquipmentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1827B0D02622BB4500F64D48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1827B0D12622BB5600F64D48 /* EquipmentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1827B0D92622BBC500F64D48 /* DataFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				1827B0DA2622BBE400F64D48 /* DataFetcher.swift */,
+			);
+			path = DataFetcher;
+			sourceTree = "<group>";
+		};
+		1827B0F32622E06C00F64D48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1827B12D26230D2E00F64D48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1827B12E26230D4E00F64D48 /* EquipmentViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,6 +231,7 @@
 				1827B06B2622A79D00F64D48 /* Sources */,
 				1827B06C2622A79D00F64D48 /* Frameworks */,
 				1827B06D2622A79D00F64D48 /* Resources */,
+				1827B11C2622E37900F64D48 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1827B1242622E3F800F64D48 /* assignment.json in Resources */,
 				1827B0822622A7A100F64D48 /* LaunchScreen.storyboard in Resources */,
 				1827B07F2622A7A100F64D48 /* Assets.xcassets in Resources */,
 				1827B07A2622A79D00F64D48 /* Main.storyboard in Resources */,
@@ -261,10 +353,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1827B0772622A79D00F64D48 /* ViewController.swift in Sources */,
+				1827B0D22622BB5600F64D48 /* EquipmentModel.swift in Sources */,
+				1827B0B32622ACB700F64D48 /* AppUtility.swift in Sources */,
+				1827B0C72622B29D00F64D48 /* EquipmentViewModel.swift in Sources */,
+				1827B0C12622B26100F64D48 /* EquipmentView.swift in Sources */,
+				1827B12F26230D4E00F64D48 /* EquipmentViewController.swift in Sources */,
+				1827B0DB2622BBE400F64D48 /* DataFetcher.swift in Sources */,
 				1827B0732622A79D00F64D48 /* AppDelegate.swift in Sources */,
-				1827B0752622A79D00F64D48 /* SceneDelegate.swift in Sources */,
 				1827B07D2622A79D00F64D48 /* JarusAssigment.xcdatamodeld in Sources */,
+				1827B148262368F500F64D48 /* EquipmentHeaderView.swift in Sources */,
+				1827B1422623461E00F64D48 /* EquimpmentInfoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,11 +539,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = JarusAssigment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"$(SRCROOT)/Carthage/Build/iOS",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bhumesh.JarusAssigment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -459,11 +564,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = JarusAssigment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"$(SRCROOT)/Carthage/Build/iOS",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bhumesh.JarusAssigment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
